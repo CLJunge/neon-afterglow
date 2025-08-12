@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Neon Abyss — Theme Icon (export to 128x128 PNG for VS Code Marketplace) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <!-- Background gradient (very subtle vignette) -->
+
+    <!-- Neon gradients matching theme accents -->
+    <linearGradient id="neonCyanPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A4F3"/>
+      <stop offset="50%" stop-color="#FF5E5E"/>
+      <stop offset="100%" stop-color="#F3C900"/>
+    </linearGradient>
+	
+    <!-- Reusable neon glow filter -->
+    <filter id="neonGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="32" y="32" width="960" height="960" rx="200" fill="#000000"/>
+
+  <!-- Outer neon ring -->
+  <circle cx="512" cy="512" r="280" fill="none" stroke="url(#neonCyanPink)" stroke-width="26" filter="url(#neonGlow)" opacity="0.9"/>
+
+  <!-- Core "abyss" -->
+  <circle cx="512" cy="512" r="138" fill="#000000" />
+  <circle cx="512" cy="512" r="142" fill="none" stroke="#111" stroke-width="6" opacity="0.8"/>
+
+  <!-- Optional subtle title mark (NA) without relying on fonts (stylized lines) -->
+  <g opacity="0.7" filter="url(#neonGlow)">
+    <path d="M424 420 L424 604 L600 420 L600 604" stroke="#8CDAFF" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

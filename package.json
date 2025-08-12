@@ -1,0 +1,48 @@
+{
+  "name": "neon-afterglow",
+  "displayName": "Neon Afterglow",
+  "publisher": "CLJunge",
+  "version": "0.1.0",
+  "description": "A vibrant, high-contrast dark theme blending deep blacks with neon accents for a modern, readable coding experience.",
+  "engines": { "vscode": "^1.74.0" },
+  "categories": ["Themes"],
+  "icon": "icon.png",
+  "galleryBanner": { "color": "#080808", "theme": "dark" },
+
+  "contributes": {
+    "themes": [
+      { "label": "Neon Afterglow", "uiTheme": "vs-dark", "path": "./themes/neon-afterglow-color-theme.json" },
+      { "label": "Neon Afterglow — Orange Accent", "uiTheme": "vs-dark", "path": "./themes/neon-afterglow-orange-color-theme.json" },
+      { "label": "Neon Afterglow — Magenta Accent", "uiTheme": "vs-dark", "path": "./themes/neon-afterglow-magenta-color-theme.json" },
+      { "label": "Neon Afterglow — Lime Accent", "uiTheme": "vs-dark", "path": "./themes/neon-afterglow-lime-color-theme.json" },
+      { "label": "Neon Afterglow — Teal Accent", "uiTheme": "vs-dark", "path": "./themes/neon-afterglow-teal-color-theme.json" },
+      { "label": "Neon Afterglow — Violet Accent", "uiTheme": "vs-dark", "path": "./themes/neon-afterglow-violet-color-theme.json" }
+    ],
+
+    "configurationDefaults": {
+      "editor.renderWhitespace": "selection",
+      "editor.cursorSmoothCaretAnimation": "on",
+      "editor.smoothScrolling": true,
+      "editor.bracketPairColorization.enabled": true,
+      "editor.guides.bracketPairs": "active",
+      "editor.cursorBlinking": "phase"
+    }
+  },
+
+  "repository": { "type": "git", "url": "https://github.com/CLJunge/neon-afterglow" },
+  "bugs": { "url": "https://github.com/CLJunge/neon-afterglow/issues" },
+  "homepage": "https://github.com/CLJunge/neon-afterglow#readme",
+  "license": "MIT",
+  "keywords": ["theme","dark","neon","cyberpunk","high-contrast","afterglow","neon-afterglow"],
+
+  "scripts": {
+    "build:icon": "node scripts/generate-icon.js",
+    "prepackage": "npm run build:icon",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "latest",
+    "sharp": "^0.33.4"
+  }
+}

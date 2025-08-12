@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+
+# VS Code extension packaging
+*.vsix
+.vscode-test/
+
+# Build outputs
+out/
+dist/
+coverage/
+.nyc_output/
+.eslintcache
+
+# Environment files
+.env
+.env.*.local
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db

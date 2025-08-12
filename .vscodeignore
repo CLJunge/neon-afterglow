@@ -1,0 +1,20 @@
+# Ignore development and non-essential files from the VSIX
+.git/**
+.github/**
+.vscode/**
+node_modules/**
+test/**
+scripts/**
+assets/**
+images/**
+screenshots/**
+*.psd
+*.ai
+*.sketch
+
+# Keep the essentials
+!themes/**
+!README.md
+!CHANGELOG.md
+!LICENSE
+!images/icon.png
