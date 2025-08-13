@@ -11,38 +11,39 @@ Neon Afterglow is a high-contrast dark theme combining deep blacks with vibrant 
 
 ## Variants  
 
-Available themes:
-**Neon Afterglow** (default)
+**Available themes:**
+
+*Neon Afterglow* (default)
 <details>
 <summary>Preview</summary>
 <img src="images/preview-default.png"></img>
 </details>
 
-**Neon Afterglow — Orange Accent** `#FF7A00`
+*Neon Afterglow — Orange Accent* `#FF7A00`
 <details>  
 <summary>Preview</summary>
 <img src="images/preview-orange.png"></img>
 </details>
 
-**Neon Afterglow — Magenta Accent** `#FF2BD1`
+*Neon Afterglow — Magenta Accent* `#FF2BD1`
 <details>
 <summary>Preview</summary>
 <img src="images/preview-magenta.png"></img>
 </details>
 
-**Neon Afterglow — Lime Accent** `#B6FF00`
+*Neon Afterglow — Lime Accent* `#B6FF00`
 <details>
 <summary>Preview</summary>
 <img src="images/preview-lime.png"></img>
 </details>
 
-**Neon Afterglow — Teal Accent** `#00FFD1`
+*Neon Afterglow — Teal Accent* `#00FFD1`
 <details>
 <summary>Preview</summary>
 <img src="images/preview-teal.png"></img>
 </details>
 
-**Neon Afterglow — Violet Accent** `#A94BFF`
+*Neon Afterglow — Violet Accent* `#A94BFF`
 <details>
 <summary>Preview</summary>
 <img src="images/preview-violet.png"></img>
