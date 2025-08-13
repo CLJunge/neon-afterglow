@@ -1,6 +1,6 @@
 # Neon Afterglow — VS Code Theme  
 
-Neon Afterglow is a high-contrast dark theme combining deep blacks with vibrant neon accents for a crisp, modern coding experience. Designed for readability, focus, and a touch of cyberpunk style. It's based on the [Deepdark Material Theme](https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material) by Nimda.
+Neon Afterglow is a high-contrast dark theme combining deep blacks with vibrant neon accents for a crisp, modern coding experience. Designed for readability, focus, and a touch of cyberpunk style. Based on the [Deepdark Material Theme](https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material) by Nimda.
 
 - **Base:** `#080808`  
 - **Foreground:** `#F8F8F2`  
