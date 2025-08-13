@@ -9,3 +9,6 @@ All notable changes to Neon Abyss will be documented in this file.
 
 ## 0.1.1
 - Updated the README to include attribution to the original author of the theme on which this project is based.
+
+## 0.1.2
+- Updated the README to hide preview images behind foldouts and moved them to the 'Variants' section.
