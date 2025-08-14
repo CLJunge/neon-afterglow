@@ -15,3 +15,7 @@ All notable changes to Neon Abyss will be documented in this file.
 
 ## 0.1.3
 - Updated README layout of the 'Variants' section.
+
+## 0.1.4
+- Changed 'class' token color to #08fbff
+- Changed 'interface' token color to #2DE2E6
